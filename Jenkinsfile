@@ -1,6 +1,6 @@
 node {
   stage('Build') {
-  sh 'gradle -v"
+  sh 'gradle -v'
   }
   stage('Test') {
   echo 'Building....'
